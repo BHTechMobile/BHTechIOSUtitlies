@@ -56,4 +56,3 @@
 
 /* Debug */
 
-#define debug(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
