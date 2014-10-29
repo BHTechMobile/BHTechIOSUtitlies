@@ -1,4 +1,33 @@
+//
+//  Constants.h
+//  TShot
+//
+//  Created by setacinq on 3/12/14.
+//  Copyright (c) 2014 Seta. All rights reserved.
+//
 
+/* Categories */
+
+#import "UIImage+Helpers.h"
+#import "UIView+Utils.h"
+#import "UIViewController+Utils.h"
+#import "NSDictionary+Helpers.h"
+#import "NSUserDefaults+Helpers.h"
+#import "NSDate+Helpers.h"
+#import "UIAlertView+Helpers.h"
+#import "UIColor+Helpers.h"
+#import "UIFont+Helpers.h"
+#import "UIView+AutoLayout.h"
+#import "NSString+Helpers.h"
+#import "UINavigationBar+customBar.h"
+
+/* Base Services*/
+
+#import "BaseServices.h"
+
+/* AppDelegate */
+
+#import "AppDelegate.h"
 
 #define APP_DELEGATE ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 
