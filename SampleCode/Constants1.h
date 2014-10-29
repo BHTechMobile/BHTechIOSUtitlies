@@ -1,8 +1,5 @@
 //
 //  Constants.h
-//  TShot
-//
-//  Created by setacinq on 3/12/14.
 //  Copyright (c) 2014 Seta. All rights reserved.
 //
 
