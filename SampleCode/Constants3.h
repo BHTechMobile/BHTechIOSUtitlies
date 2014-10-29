@@ -8,12 +8,12 @@
 
 /* Categories */
 
-#import "UIImage+Helpers.h"
+#import test 7
 #import "UIView+Utils.h"
 #import "UIViewController+Utils.h"
 #import "NSDictionary+Helpers.h"
 #import "NSUserDefaults+Helpers.h"
-#import "NSDate+Helpers.h"
+
 #import "UIAlertView+Helpers.h"
 #import "UIColor+Helpers.h"
 #import "UIFont+Helpers.h"
@@ -36,11 +36,6 @@ testrevert2
 
 #import "CoreData+MagicalRecord.h"
 
-/* MBProgressHUD */
-
-#import "MBProgressHUD.h"
-
-/* Cache Image*/
 
 #import "FTWCache.h"
 #import "NSString+MD5.h"
@@ -58,7 +53,6 @@ testrevert2
 #define URL_ATTACH_IMAGE [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:[NSString stringWithFormat:@"my_capture.jpg"]]
 /* OS */
 
-#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
 #define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
@@ -66,11 +60,6 @@ testrevert2
 
 #define IS_IOS_7 SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")
 #define IS_IOS_5 SYSTEM_VERSION_LESS_THAN(@"6.0")
-
-/* User setting key */
-#define TitleColor     [UIColor blackColor]
-#define CalibriFont(fontSize) [UIFont fontWithName : @"Calibri" size : fontSize]
-#define FaceookAppID @"521268487983316"
 
 #define USER_LOGGEDIN_ID    @"USER_LOGGEDIN_ID"
 #define USER_LOGGEDIN_NAME    @"USER_LOGGEDIN_NAME"
